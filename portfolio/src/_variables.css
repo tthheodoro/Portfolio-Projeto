@@ -1,0 +1,50 @@
+/* 
+* Variaveis 
+*
+*/
+@import "tailwindcss";
+
+
+
+:root {
+    /*  Cores */
+    --blue01: #040d11;
+    --grey01: #CCCCCC;
+    --grey02: #A7A7A7;
+    --grey03: #666666;
+    --purple01: #0C161C;
+    --purple02: #1E3280;
+    --gren01: #D7FFE0;
+    --white: #fff;
+
+     /*  Tipografia */
+    --fontWeightRegular: 400;
+    --fontWeightMedium: 500;
+    --fontWeightBold: 600 ;
+    --fontWeightExtraBold: 700;
+    --fontFamilySyne: "Syne", sans-serif;
+    --fontFamilyRubik: "Rubik", "sans-serif";
+
+    /*  Breakpoints */
+    --bp-mobile: 480px;
+    --bp-tablet: 768px;
+    --bp-desktop: 1200px;
+
+    --background: var(--blue01);
+    --colorH1: var(--grey01);
+    --colorH2: var(--grey01);
+    --colorH3: var(--grey02);
+    --colorH4: var(--grey03);
+    --colorP: var(--grey03);
+    --colorPrimaryMenu: var(--grey03);
+    --colorText: var(--white);
+    --colorBorder: #949494;
+}
+
+/*html[data-theme="light"]{
+}
+
+html[data-theme="dark"]{
+    --background: var(--blue01);
+}
+*/

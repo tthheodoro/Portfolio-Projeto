@@ -1,0 +1,21 @@
+/*
+* MAIN
+* - CSS principal do projeto
+*/
+
+@import "tailwindcss";
+@import './_variables.css';
+
+html {
+  font-size: 62.5%;
+}
+
+body{
+  /* prefer CSS variable if available, otherwise use red as fallback */
+  background-color: var(--blue01);
+  color: #fff;
+}
+
+container {
+  @apply mx-auto px-4;
+}

@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+
+
+header nav a {
+  color: var(--grey02);
+  text-decoration: none;
+  font-weight: var(--fontWeightMedium);
+  font-family: var(--fontFamilyRubik), sans-serif !important;
+  font-size: 1.4rem;
+}
+
