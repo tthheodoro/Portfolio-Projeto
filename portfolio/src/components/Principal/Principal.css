@@ -1,2 +1,167 @@
 @import "tailwindcss";
 @import '../../_variables.css';
+
+/*
+*
+* Banner
+*
+*/
+
+.sectionBanner .columnLeft h1 {
+    font-family: var(--fontFamilySyne);
+    font-weight: var(--fontWeightBold);
+    font-size: 5.6rem;
+    color: var(--white);
+}
+
+.sectionBanner .columnLeft p {
+    font-family: var(--fontFamilyRubik);
+    font-weight: var(--fontWeightRegular);
+    font-size: 1.8rem;
+    color: var(--grey02);
+}
+
+.sectionBanner .columnRight {
+    display: block;
+}
+.sectionBanner .columnRight img {
+    width: 400px;
+    height: 446px;
+    border-radius: 30px;
+}
+
+.sectionBanner .columnRight .box{
+    position: relative;
+   
+}
+
+.sectionBanner .columnRight .box .badgeTop {
+    width: 110px;
+    height: 34px;
+    border: 1px solid #98C7E7;
+    position: absolute;
+    top: -20px;
+    right: -50px;
+    border-radius: 30px;
+}
+
+.sectionBanner .columnRight .box .badgeBottom {
+    width: 55px;
+    height: 178px;
+    border: 1px solid #98C7E7;
+    position: absolute;
+    bottom: -20px;
+    left: -35px;
+    border-radius: 30px;
+}
+
+/*
+*
+* Stacks
+*
+*/
+
+.sectionStack header {
+    justify-content: center;
+    text-align: center;
+}
+
+.sectionStack header h2{
+   font-family: var(--fontFamilySyne);
+   font-size: 4.8rem;
+   font-weight: var(--fontWeightBold);
+   color: var(--grey01);
+}
+
+.sectionStack header h3{
+   font-family: var(--fontFamilySyne);
+   font-size: 3.2rem;
+   font-weight: var(--fontWeightRegular);
+   color: var(--grey02);
+}
+
+.sectionStack .imageContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    row-gap: 70px;
+    column-gap: 190px;
+    margin: 100px auto 0px;
+    padding: 0 130px;
+}
+
+/*
+*
+* Projects
+*
+*/
+
+.sectionProjects header {
+    justify-content: center;
+    text-align: center;
+}
+
+.sectionProjects header h2{
+   font-family: var(--fontFamilySyne);
+   font-size: 4.8rem;
+   font-weight: var(--fontWeightBold);
+   color: var(--grey01);
+   border-bottom: 10px;
+}
+
+.sectionProjects .projectContainer{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  column-gap: 40px;
+  row-gap: 60px;
+  margin-top: 100px;
+}
+
+.projectBox{
+  max-width: 375px;
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: var(--backgroundProjectBox);
+  box-shadow: rgba(000, 000, 000, 0.2) 0px 8px 24px;
+}
+
+.projectContent{
+  padding: 30px;
+
+}
+
+.projectContent h4{
+    font-family: var(--fontFamilySyne);
+    color: var(--grey01);
+    font-size: 2.8rem;
+    font-weight: var(--fontWeightMedium);
+    line-height: 5rem;
+}
+
+.projectContent p{
+    font-family: var(--fontFamilyRubik);
+    color: var(--grey01);
+    font: 1.4rem;
+    font-weight: var(--fontWeightRegular);
+    margin-bottom: 10px;
+}
+
+.projectContent p:last-child{
+    font-family: var(--fontFamilyRubik);
+    color: var(--grey01);
+    font: 1.4rem;
+    font-weight: var(--fontWeightRegular);
+    margin: 0;
+}
+
+
+.projectContent p span{
+    font-family: var(--fontFamilyRubik);
+    color: var(--grey01);
+    font: 1.4rem;
+    font-weight: var(--fontWeightMedium);
+}

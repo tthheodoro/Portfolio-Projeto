@@ -1,2 +1,36 @@
 @import "tailwindcss";
 @import '../../_variables.css';
+
+
+footer .mainFooter {
+    position: relative;
+}
+
+footer .mainFooter::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    height: 2px;
+    background-color: var(--grey02);
+    opacity: 0.3;
+
+}
+
+footer .email {
+    font-family: var(--fontFamilyRubik);
+    font-weight: var(--fontWeightRegular);
+    font-size: 1.8rem;
+    color: var(--grey02);
+
+}
+
+.miniFooter nav ul li a {
+    font-family: var(--fontFamilyRubik);
+    font-weight: var(--fontWeightRegular);
+    font-size: 1.8rem;
+    color: var(--grey02);
+
+}
