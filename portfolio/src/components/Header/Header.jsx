@@ -13,10 +13,10 @@ function Header() {
         {/* Navegação */}
         <nav>
           <ul className="flex flex-wrap justify-center md:flex-nowrap md:justify-end items-center gap-6 md:gap-14">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT ME</a></li>
-            <li><a href="#">STACK</a></li>
-            <li><a href="#">PROJECTS</a></li>
+            <li><a href="Principal.jsx">HOME</a></li>
+            <li><a href="About.jsx">ABOUT ME</a></li>
+            <li><a href="">STACK</a></li>
+            <li><a href="Projects.jsx">PROJECTS</a></li>
             <li><a href="#">CONTACT</a></li>
             <li>
                 <a href="https://www.linkedin.com/in/tiago-teodoroo"><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
