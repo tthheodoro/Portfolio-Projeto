@@ -9,7 +9,7 @@ function Principal() {
                 <div className="columnLeft w-200">
                     <h1>Let's get know about me closer</h1><br/>
                     <p>
-                    Tiago is a front-end developer in Castelo Branco, focusing on web development. His portfolio features a wide range of work, including website creation.
+                    Miau Tiago is a front-end developer in Castelo Branco, focusing on web development. His portfolio features a wide range of work, including website creation.
                     </p>
                 </div>
                 <div className="columnRight mr-50">
@@ -47,6 +47,24 @@ function Principal() {
                         </header>
                         <div className="projectContent">
                             <h4> Projeto 1</h4>
+                            <p> Client : <span>Meow </span></p>
+                            <p> Work : <span>Website Creation </span></p>
+                            <p> Tech : <span>HMTL,CSS,Javascript, React+Vite </span></p>
+                        </div>
+                        <div className="projectContent">
+                            <h4> Projeto 2</h4>
+                            <p> Client : <span>Meow </span></p>
+                            <p> Work : <span>Website Creation </span></p>
+                            <p> Tech : <span>HMTL,CSS,Javascript, React+Vite </span></p>
+                        </div>
+                        <div className="projectContent">
+                            <h4> Projeto 3</h4>
+                            <p> Client : <span>Meow </span></p>
+                            <p> Work : <span>Website Creation </span></p>
+                            <p> Tech : <span>HMTL,CSS,Javascript, React+Vite </span></p>
+                        </div>
+                        <div className="projectContent">
+                            <h4> Projeto 4</h4>
                             <p> Client : <span>Meow </span></p>
                             <p> Work : <span>Website Creation </span></p>
                             <p> Tech : <span>HMTL,CSS,Javascript, React+Vite </span></p>
