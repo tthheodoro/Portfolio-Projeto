@@ -41,7 +41,6 @@ function Principal() {
                     <h2>Projects</h2>
                 </header>
                 
-                {/* A NOSSA GRELHA COMEÇA AQUI E ENVOLVE TODOS OS CARTÕES */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-[40px] gap-y-[60px] mt-[100px] max-w-[1300px] mx-auto justify-items-center">
                     
                     {/* PROJETO 1 */}
