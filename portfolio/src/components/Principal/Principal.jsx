@@ -40,7 +40,7 @@ function Principal() {
                 <header> 
                     <h2>Projects</h2>
                 </header>
-                <div className="projectContainer">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-[40px] gap-y-[60px] mt-[100px] max-w-[1700px] mx-auto px-6 sm:px-10 md:px-16 lg:px-24 xl:px-32">
                     <div className="projectBox">
                         <header>
                             <img src="./assets/images/project1.png" alt="" />
