@@ -46,18 +46,52 @@ function Principal() {
                             <img src="./assets/images/project1.png" alt="" />
                         </header>
                         <div className="projectContent">
-                            <h4> PRevisão de Popularidade de Noticias </h4>
+                            <h3> Previsão de Popularidade de Noticias </h3>
                             <p> Client : <span>IPCB PROJECT </span></p>
                             <p> Work : <span>Project Creation </span></p>
                             <p> Tech : <span>Python, SQL, HTML/CSS, GitHub Actions</span></p>
                         </div>
                     </div>
-                    
-                    
                 </div>
-            </section>
-            <section className="sectionProjects flex justify-center items-center max-w-[1700px] mx-auto px-6 sm:px-10 md:px-16 lg:px-24 xl:px-32">
-
+                <div className="projectContainer">
+                    <div className="projectBox">
+                        <header>
+                            <img src="./assets/images/Rectangle_30.png" alt="" />
+                        </header>
+                        <div className="projectContent">
+                            <h3> SOON </h3>
+                            <p> Client : <span> </span></p>
+                            <p> Work : <span> </span></p>
+                            <p> Tech : <span></span></p>
+                        </div>
+                    </div>
+                </div>
+                <div className="projectContainer">
+                    <div className="projectBox">
+                        <header>
+                            <img src="./assets/images/Rectangle_30.png" alt="" />
+                        </header>
+                        <div className="projectContent">
+                            <h3> SOON </h3>
+                            <p> Client : <span> </span></p>
+                            <p> Work : <span> </span></p>
+                            <p> Tech : <span></span></p>
+                        </div>
+                    </div>
+                </div>
+                <div className="projectContainer">
+                    <div className="projectBox">
+                        <header>
+                            <img src="./assets/images/Rectangle_30.png" alt="" />
+                        </header>
+                        <div className="projectContent">
+                            <h3> SOON </h3>
+                            <p> Client : <span> </span></p>
+                            <p> Work : <span> </span></p>
+                            <p> Tech : <span></span></p>
+                        </div>
+                    </div>
+                </div>
             </section>
         </main>
     )
