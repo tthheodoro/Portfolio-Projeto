@@ -43,15 +43,16 @@ function Principal() {
                 <div className="projectContainer">
                     <div className="projectBox">
                         <header>
-                            <img src="./assets/images/Rectangle_30.png" alt="" />
+                            <img src="./assets/images/project1.png" alt="" />
                         </header>
                         <div className="projectContent">
-                            <h4> Projeto 1</h4>
-                            <p> Client : <span>Meow </span></p>
-                            <p> Work : <span>Website Creation </span></p>
-                            <p> Tech : <span>HMTL,CSS,Javascript, React+Vite </span></p>
+                            <h4> PRevisão de Popularidade de Noticias </h4>
+                            <p> Client : <span>IPCB PROJECT </span></p>
+                            <p> Work : <span>Project Creation </span></p>
+                            <p> Tech : <span>Python, SQL, HTML/CSS, GitHub Actions</span></p>
                         </div>
                     </div>
+                    
                     
                 </div>
             </section>
