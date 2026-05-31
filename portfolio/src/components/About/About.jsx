@@ -4,7 +4,7 @@ import '../../_variables.css';
 
 function About() {
     return (
-        <main>
+        <main className="about-page max-w-[800px] mx-auto mt-[100px] px-6">
             <section className="sectionAbout">
                 <header>
                     <h1>Sobre mim</h1>
