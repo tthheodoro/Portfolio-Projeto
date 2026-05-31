@@ -51,24 +51,6 @@ function Principal() {
                             <p> Work : <span>Website Creation </span></p>
                             <p> Tech : <span>HMTL,CSS,Javascript, React+Vite </span></p>
                         </div>
-                        <div className="projectContent">
-                            <h4> Projeto 2</h4>
-                            <p> Client : <span>Meow </span></p>
-                            <p> Work : <span>Website Creation </span></p>
-                            <p> Tech : <span>HMTL,CSS,Javascript, React+Vite </span></p>
-                        </div>
-                        <div className="projectContent">
-                            <h4> Projeto 3</h4>
-                            <p> Client : <span>Meow </span></p>
-                            <p> Work : <span>Website Creation </span></p>
-                            <p> Tech : <span>HMTL,CSS,Javascript, React+Vite </span></p>
-                        </div>
-                        <div className="projectContent">
-                            <h4> Projeto 4</h4>
-                            <p> Client : <span>Meow </span></p>
-                            <p> Work : <span>Website Creation </span></p>
-                            <p> Tech : <span>HMTL,CSS,Javascript, React+Vite </span></p>
-                        </div>
                     </div>
                     
                 </div>
