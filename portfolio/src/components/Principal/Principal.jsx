@@ -59,6 +59,7 @@ function Principal() {
                     {/* PROJETO 2 */}
                     <div className="projectBox">
                         <header>
+                            <a href="https://tthheodor-previsao-popularidade.hf.space" target="_blank" rel="noopener noreferrer"></a>
                             <img src="./assets/images/Rectangle_30.png" alt="" />
                         </header>
                         <div className="projectContent">
