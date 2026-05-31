@@ -1,2 +1,76 @@
 @import "tailwindcss";
 @import '../../_variables.css';
+
+/*
+  PAGES
+*/
+
+.about-page section{
+  width: 100%;
+  max-width: 700px;
+  margin: 30px 0;
+}
+
+.about-page section header h2{
+  margin-bottom: 10px;
+}
+
+.about-page section.sectionAbout h1{
+  font-size: 4.2rem;
+  font-weight: var(--fontWeightBold);
+}
+
+/*
+  expList
+  expListItem
+  expFirstLine
+  expSecondLine
+*/
+
+.about-page .expList{
+  color: var(--colorP);
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.about-page .expList .expListItem{
+  padding-bottom: 20px;
+  border-bottom: 2px solid var(--colorBorder);
+}
+
+.about-page .expList .expFirstLine{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-page .expList .expFirstLine h3{
+  font-size: 2rem;
+  font-weight: var(--fontWeightRegular);
+}
+
+.about-page .expBadge{
+  background-color: var(--green02);
+  color: var(--green01);
+  padding: 7px 15px;
+  border-radius: 100px;
+  cursor: default;
+  font-size: 0.9rem;
+  font-weight: var(--fontWeightMedium);
+}
+
+.about-page .expList .expSecondLine{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: var(--fontWeightMedium);
+  color: var(--colorP);
+}
+
+.about-page .expList .expSecondLine > div{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
