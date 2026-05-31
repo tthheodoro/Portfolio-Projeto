@@ -49,7 +49,7 @@ function Principal() {
                             <img src="./assets/images/project1.png" alt="" />
                         </header>
                         <div className="projectContent">
-                            <h3> Previsão de Popularidade de Noticias </h3>
+                            <h4> Previsão de Popularidade de Noticias </h4>
                             <p> Client : <span>IPCB PROJECT </span></p>
                             <p> Work : <span>Project Creation </span></p>
                             <p> Tech : <span>Python, SQL, HTML/CSS, GitHub Actions</span></p>
@@ -62,7 +62,7 @@ function Principal() {
                             <img src="./assets/images/Rectangle_30.png" alt="" />
                         </header>
                         <div className="projectContent">
-                            <h3> SOON </h3>
+                            <h4> SOON </h4>
                             <p> Client : <span> </span></p>
                             <p> Work : <span> </span></p>
                             <p> Tech : <span></span></p>
@@ -75,7 +75,7 @@ function Principal() {
                             <img src="./assets/images/Rectangle_30.png" alt="" />
                         </header>
                         <div className="projectContent">
-                            <h3> SOON </h3>
+                            <h4> SOON </h4>
                             <p> Client : <span> </span></p>
                             <p> Work : <span> </span></p>
                             <p> Tech : <span></span></p>
@@ -88,7 +88,7 @@ function Principal() {
                             <img src="./assets/images/Rectangle_30.png" alt="" />
                         </header>
                         <div className="projectContent">
-                            <h3> SOON </h3>
+                            <h4> SOON </h4>
                             <p> Client : <span> </span></p>
                             <p> Work : <span> </span></p>
                             <p> Tech : <span></span></p>
