@@ -110,12 +110,12 @@
    border-bottom: 10px;
 }
 
-.projectBox{
-  width: 100%;
+.projectBox {
+  max-width: 375px; /* Volta a colocar isto */
   border-radius: 20px;
   overflow: hidden;
   background-color: var(--backgroundProjectBox);
-  box-shadow: rgba(000, 000, 000, 0.2) 0px 8px 24px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
 }
 
 .projectContent{

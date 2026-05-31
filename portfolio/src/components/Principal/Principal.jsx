@@ -40,7 +40,11 @@ function Principal() {
                 <header> 
                     <h2>Projects</h2>
                 </header>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-[40px] gap-y-[60px] mt-[100px] max-w-[1700px] mx-auto px-6 sm:px-10 md:px-16 lg:px-24 xl:px-32">
+                
+                {/* A NOSSA GRELHA COMEÇA AQUI E ENVOLVE TODOS OS CARTÕES */}
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-[40px] gap-y-[60px] mt-[100px] max-w-[1300px] mx-auto justify-items-center">
+                    
+                    {/* PROJETO 1 */}
                     <div className="projectBox">
                         <header>
                             <img src="./assets/images/project1.png" alt="" />
@@ -52,8 +56,8 @@ function Principal() {
                             <p> Tech : <span>Python, SQL, HTML/CSS, GitHub Actions</span></p>
                         </div>
                     </div>
-                </div>
-                <div className="projectContainer">
+
+                    {/* PROJETO 2 */}
                     <div className="projectBox">
                         <header>
                             <img src="./assets/images/Rectangle_30.png" alt="" />
@@ -65,8 +69,8 @@ function Principal() {
                             <p> Tech : <span></span></p>
                         </div>
                     </div>
-                </div>
-                <div className="projectContainer">
+
+                    {/* PROJETO 3 */}
                     <div className="projectBox">
                         <header>
                             <img src="./assets/images/Rectangle_30.png" alt="" />
@@ -78,8 +82,8 @@ function Principal() {
                             <p> Tech : <span></span></p>
                         </div>
                     </div>
-                </div>
-                <div className="projectContainer">
+
+                    {/* PROJETO 4 */}
                     <div className="projectBox">
                         <header>
                             <img src="./assets/images/Rectangle_30.png" alt="" />
@@ -91,7 +95,8 @@ function Principal() {
                             <p> Tech : <span></span></p>
                         </div>
                     </div>
-                </div>
+
+                </div> {/* A GRELHA FECHA AQUI */}
             </section>
         </main>
     )
