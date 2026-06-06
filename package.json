@@ -1,13 +1,12 @@
 {
   "dependencies": {
     "react-router-dom": "^7.16.0"
-  }
-}
+  },
 
-{
   "homepage": "https://tthheodoro.github.io/Portfolio-Projeto/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   }
 }
+
