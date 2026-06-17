@@ -2,7 +2,7 @@
 
 Personal portfolio website built with React and Vite, showcasing my projects, skills, and experience as a software developer.
 
-🌐 **Live site:** https://portfolio-projeto.onrender.com
+🌐 **Live site:** [https://portfolio-projeto.onrender.com](https://tthheodoro.github.io/Portfolio-Projeto/)
 
 ---
 
