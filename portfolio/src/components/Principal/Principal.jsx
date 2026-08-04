@@ -58,8 +58,25 @@ const PROJECTS = [
       </>
     ),
     stack: ["HTML5", "CSS3", "responsive"],
-    githubUrl: "#",
-    liveUrl: "#",
+    githubUrl: "https://github.com/tthheodoro/coruja-academy-rework",
+    liveUrl: "https://tthheodoro.github.io/coruja-academy-rework/",
+  },
+  {
+    title: "News Popularity Prediction",
+    badge: "LIVE",
+    badgeClass: "badge-prod",
+    description: (
+      <>
+        <strong>Desafio:</strong>Será possível prever se uma notícia vai ter
+        sucesso nas redes sociais antes mesmo de ser publicada? Para responder a
+        esta questão, desenvolvemos um sistema que analisa o destaque dado pelos
+        editores nas páginas principais dos jornais e tenta antecipar a sua
+        viralidade em plataformas como o Facebook e o Instagram.
+      </>
+    ),
+    stack: ["Azure SQL", "RSS", "NLP", "CI/CD:"],
+    githubUrl: "https://github.com/tthheodoro/previsao-popularidade-noticias",
+    liveUrl: "https://tthheodor-previsao-popularidade.hf.space/",
   },
 ];
 
@@ -198,7 +215,10 @@ export default function Portfolio() {
             </div>
             <div className="line">
               <span className="key">"a_aprender"</span>:{" "}
-              <span className="val">["cloud", "devops", "go"]</span>,
+              <span className="val">
+                ["cloud", "devops", "project management"]
+              </span>
+              ,
             </div>
             <div className="line">
               <span className="key">"localizacao"</span>:{" "}
@@ -303,7 +323,9 @@ export default function Portfolio() {
 
       <section className="sobre" id="sobre">
         <div className="wrap sobre-grid">
-          <div className="sobre-portrait">foto / avatar</div>
+          <div className="sobre-portrait">
+            <img src="../public/assets/images/avatar,jpg" alt="Hero banner" />
+          </div>
 
           <div>
             <span className="section-eyebrow">// sobre</span>
@@ -316,7 +338,7 @@ export default function Portfolio() {
                 técnico em produtos reais.{" "}
                 <strong>Organizo a minha aprendizagem por ciclos</strong>:
                 defino um objetivo técnico concreto, construo algo que o prove,
-                e só avanço quando tenho um resultado tangível — não apenas um
+                e só avanço quando tenho um resultado tangível, não apenas um
                 tutorial concluído.
               </p>
               <p>
@@ -352,13 +374,19 @@ export default function Portfolio() {
             </p>
 
             <div className="contacto-links">
-              <a href="#" className="contacto-link">
+              <a
+                href="https://drive.google.com/file/d/1lFWNOdGH47jfO_edhYH4kgKuCNDDxCnt/view?usp=sharing"
+                className="contacto-link"
+              >
                 ↓ Descarregar Currículo (PDF) <span className="arrow">→</span>
               </a>
-              <a href="#" className="contacto-link">
+              <a
+                href="https://www.linkedin.com/in/tiago-teodoroo/"
+                className="contacto-link"
+              >
                 LinkedIn <span className="arrow">→</span>
               </a>
-              <a href="#" className="contacto-link">
+              <a href="https://github.com/tthheodoro" className="contacto-link">
                 GitHub <span className="arrow">→</span>
               </a>
             </div>
