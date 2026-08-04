@@ -5,10 +5,6 @@
 
 @import "tailwindcss";
 
-html {
-  font-size: 62.5%;
-}
-
 body{
   /* prefer CSS variable if available, otherwise use red as fallback */
   background-color: var(--blue01);
