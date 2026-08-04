@@ -4,7 +4,6 @@
 */
 
 @import "tailwindcss";
-@import './_variables.css';
 
 html {
   font-size: 62.5%;
