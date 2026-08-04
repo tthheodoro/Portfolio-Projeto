@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Portfolio.css";
+import "./Principal.css";
 
 const NAV_LINKS = [
   { href: "#skills", label: "Skills" },
