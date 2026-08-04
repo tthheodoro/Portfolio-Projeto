@@ -77,9 +77,21 @@ export default function Portfolio() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    // TODO: ligar a um serviço real (ex. Formspree, EmailJS, ou endpoint próprio)
     console.log("Formulário de contacto:", form);
   }
+
+  // NOVA FUNÇÃO: Gere o clique, fecha o menu e faz o scroll suave
+  const handleScroll = (e, targetId) => {
+    e.preventDefault(); // Evita o "salto" imediato do HTML
+    setNavOpen(false); // Garante que o menu mobile fecha ao clicar
+
+    const element = document.querySelector(targetId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+      // Atualiza o URL (opcional, mas boa prática)
+      window.history.pushState(null, "", targetId);
+    }
+  };
 
   return (
     <div className="portfolio">
