@@ -2,7 +2,7 @@
 
 Personal portfolio website built with React and Vite, showcasing my projects, skills, and experience as a software developer.
 
-🌐 **Live site:** [https://portfolio-projeto.onrender.com](https://tthheodoro.github.io/Portfolio-Projeto/)
+🌐 **Live site:** [https://tthheodoro.github.io/Portfolio-Projeto/](https://tthheodoro.github.io/Portfolio-Projeto/)
 
 ---
 
@@ -19,17 +19,17 @@ Personal portfolio website built with React and Vite, showcasing my projects, sk
 
 \```
 portfolio/
-├── public/          # Static assets
+├── public/ # Static assets
 ├── src/
-│   ├── components/  # Reusable components
-│   │   ├── Header/
-│   │   ├── Footer/
-│   │   ├── Principal/
-│   │   ├── About/
-│   │   └── Projects/
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── style.css
+│ ├── components/ # Reusable components
+│ │ ├── Header/
+│ │ ├── Footer/
+│ │ ├── Principal/
+│ │ ├── About/
+│ │ └── Projects/
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── style.css
 ├── index.html
 ├── vite.config.js
 └── package.json
@@ -40,23 +40,27 @@ portfolio/
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Node.js (v18+)
 - npm
 
 ### Installation
 
 # Clone the repository
+
 git clone https://github.com/tthheodoro/Portfolio-Projeto.git
 
 # Navigate to the project folder
+
 cd Portfolio-Projeto/portfolio
 
 # Install dependencies
+
 npm install
 
 # Start development server
-npm run dev
 
+npm run dev
 
 ---
 
@@ -64,9 +68,7 @@ npm run dev
 
 This project is deployed to GitHub Pages using `gh-pages`.
 
-
 npm run deploy
-
 
 This command builds the project and publishes the `dist/` folder to the `gh-pages` branch automatically.
 
