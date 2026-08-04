@@ -63,9 +63,6 @@ const PROJECTS = [
   },
 ];
 
-// NOTA: falta um segundo projeto (ex. Cloud/Pipeline) para sustentar a
-// narrativa de transição de carreira — ver placeholder abaixo.
-
 export default function Portfolio() {
   const [navOpen, setNavOpen] = useState(false);
   const [form, setForm] = useState({ nome: "", email: "", mensagem: "" });
@@ -80,16 +77,31 @@ export default function Portfolio() {
     console.log("Formulário de contacto:", form);
   }
 
-  // NOVA FUNÇÃO: Gere o clique, fecha o menu e faz o scroll suave
-  const handleScroll = (e, targetId) => {
-    e.preventDefault(); // Evita o "salto" imediato do HTML
-    setNavOpen(false); // Garante que o menu mobile fecha ao clicar
+  // NOVA FUNÇÃO DE SCROLL (À prova de bala)
+  const handleScroll = (e, hash) => {
+    e.preventDefault();
+    setNavOpen(false); // Fecha o menu mobile se estiver aberto
 
-    const element = document.querySelector(targetId);
+    // Se for o logótipo (href="#"), faz scroll para o topo
+    if (hash === "#") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      return;
+    }
+
+    // Remove o '#' para procurar o ID correto
+    const targetId = hash.replace("#", "");
+    const element = document.getElementById(targetId);
+
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-      // Atualiza o URL (opcional, mas boa prática)
-      window.history.pushState(null, "", targetId);
+      // 80 é a margem em píxeis para a navbar não tapar o título
+      const navbarOffset = 80;
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.scrollY - navbarOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
     }
   };
 
@@ -97,14 +109,20 @@ export default function Portfolio() {
     <div className="portfolio">
       <nav className="nav">
         <div className="wrap nav-inner">
-          <a href="#" className="nav-logo">
+          {/* LOGOTIPO: Scroll para o topo */}
+          <a
+            href="#"
+            className="nav-logo"
+            onClick={(e) => handleScroll(e, "#")}
+          >
             tiago<span>.</span>dev
           </a>
 
           <ul className={`nav-links${navOpen ? " open" : ""}`}>
             {NAV_LINKS.map((link) => (
               <li key={link.href}>
-                <a href={link.href} onClick={() => setNavOpen(false)}>
+                {/* LINKS DA NAVBAR: Scroll para a secção */}
+                <a href={link.href} onClick={(e) => handleScroll(e, link.href)}>
                   {link.label}
                 </a>
               </li>
@@ -112,7 +130,12 @@ export default function Portfolio() {
           </ul>
 
           <div className="nav-cta">
-            <a href="#contacto" className="btn btn-primary">
+            {/* BOTÃO CONTACTAR: Scroll para a secção Contacto */}
+            <a
+              href="#contacto"
+              className="btn btn-primary"
+              onClick={(e) => handleScroll(e, "#contacto")}
+            >
               Contactar
             </a>
             <button
@@ -146,7 +169,12 @@ export default function Portfolio() {
               browser ao que o suporta em produção.
             </p>
             <div className="hero-ctas">
-              <a href="#projetos" className="btn btn-primary">
+              {/* BOTÃO PROJETOS: Scroll para a secção Projetos */}
+              <a
+                href="#projetos"
+                className="btn btn-primary"
+                onClick={(e) => handleScroll(e, "#projetos")}
+              >
                 Ver projetos
               </a>
               <a href="#" className="btn btn-ghost">
